@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014C39697A9B8A6E4E4333C39E24292B /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 265D97B742D6E80304AEC33B3D603A8F /* CCHCenterOfMassMapClusterer.m */; };
+		03D51ACBA285510A55D84C762AD3F9C0 /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA095D7E1826954B2AE9F1EECE2C6D8 /* CCHMapClusterController.m */; };
+		23A10301F8CE3CF9D057F0E2BF4376FE /* CCHMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAA2806C17B0EEBD5C5B3F2CCE1C0DA /* CCHMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2447B9539F68734078BA344CADFF8EC7 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 268E13DFF0F26A01892FBDCEE77345F5 /* CCHMapClusterControllerDebugPolygon.m */; };
+		28A86CBE6B26746DCE464FD498B93880 /* CCHMapTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F292EAC99C65EAD43E3EC9735B1C522 /* CCHMapTree.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37741FB9348B5489D440CD195E9C8823 /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6349FA6FE39D53A590BA269779E9F /* CCHMapTree.m */; };
+		3A6AAD39026480D60D8E8F319087986E /* CCHMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCA5A7409FF0F1452F66A74E2192B76 /* CCHMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43849B791AF8BBC296C364A19A2E9DF1 /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CEE5DD3EF39B8281FBDD1423A953C /* CCHMapClusterControllerUtils.m */; };
+		4DAD13E0A1C249697FE9D378A086CC6B /* CCHMapClusterControllerDebugPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6973978FAE573A7A88563F3AB951E396 /* CCHMapClusterControllerDebugPolygon.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		53552F01087F54AFF8EA195101A926E7 /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A8A315BD5E14E7F6E5CA7413AF41C4 /* CCHMapClusterAnnotation.m */; };
+		58F417E9D8FA191243077AEC7CC5F583 /* CCHMapClusterController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF14384C60C8A83B03A5757F5EF66FE /* CCHMapClusterController-dummy.m */; };
+		5D70EC70E5A9C0C52AACEC420D24B27B /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4245F1E00CDB96D280CC6BC17C484735 /* CCHNearCenterMapClusterer.m */; };
+		8D7CA533670863EBEE0E1A1C13E5CB5D /* CCHCenterOfMassMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4EF828891F44FBD3A05A9C39D0EAEE /* CCHCenterOfMassMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E127B20E651F224DE641C9D16489E7 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24561610F4E4C7E9EB9A4511C931C648 /* CCHMapViewDelegateProxy.m */; };
+		92E1810B76C63DFDAE93B81708E6DA61 /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA389E8B13A29ED7EEE5DACAAE6B4DA /* CCHMapClusterOperation.m */; };
+		94CB246B27878FE683DD2D60C441727C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358F16486F411119537C5E116932219 /* Foundation.framework */; };
+		9DA73634923DA9CB7CCFC40F81D9DFDB /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFCABEB83ADD6F865CA419C55CA121D /* CCHFadeInOutMapAnimator.m */; };
+		9F61D119DEC1E5CABB07E3DB33135FD7 /* CCHMapClusterAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = E305C67BC94594BAD2EB4D7742D4EE20 /* CCHMapClusterAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63F295AB20D2BCC0C6C4E76D3150440 /* Pods-FlickrTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 317235D70EDBE2E1B1A7C964A1AD520A /* Pods-FlickrTask-dummy.m */; };
+		A770AB9EC96B4CB037C109B00819AD16 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40870FA3DF5DD6AD4BF8D21A9D6E9804 /* MapKit.framework */; };
+		A87766FAD5C707664A15050CE6994840 /* CCHMapTreeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADDCE5D53DBC0BAA578F1A18895BA37 /* CCHMapTreeUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B1B7868E70947735F9A5CFDD135ABA7E /* CCHMapViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E12EBE3C050CDC5568870BE0FB48FD0F /* CCHMapViewDelegateProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BB2B6B5F4F81A9A653237857B4249F4E /* CCHFadeInOutMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDC37F082CC7751FF6A5D1B9FA8EB1C /* CCHFadeInOutMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB7CF9DF2BBA756102580162254ABD18 /* CCHMapClusterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 028EA6EA566863ACBBBCB8A7C6BD997B /* CCHMapClusterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8F7E96AEE4FA632A5594DD466BCC39 /* CCHNearCenterMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEC7F070336B0469D8EB99BB3E10EFE /* CCHNearCenterMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14618AB6214C8C5F2F8041035431B9C /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CF59E1926D1CF6EF5865F6FCBC351 /* CCHMapTreeUtils.m */; };
+		D3F1DCA17A9C27F8960698EF75B9CD9F /* CCHMapClusterControllerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 688F28BDE0A51A81DB741A8E192D0743 /* CCHMapClusterControllerUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DCFFBEF39527D87A98B8A4EF3A642041 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1494287433DE58DAEE7F19EB6AD38F6 /* CoreLocation.framework */; };
+		E2511F0EAC2917648467754B7B8FF488 /* CCHMapClusterControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB9CAB82C2568052B15DA639785F13B /* CCHMapClusterControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E93D6FCC45D7E173A5AE54F80ABDECC7 /* CCHMapClusterOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE4C23D6B9BF4E98419D451E250DB8C /* CCHMapClusterOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F54D798B2BDDA133955D0E2F88E20E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358F16486F411119537C5E116932219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C502738F4384908A1D8F5EB3FC92DB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D252272B13D2E7AD51A8F92A418C5EB3;
+			remoteInfo = CCHMapClusterController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028EA6EA566863ACBBBCB8A7C6BD997B /* CCHMapClusterController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterController.h; path = CCHMapClusterController/CCHMapClusterController.h; sourceTree = "<group>"; };
+		09C6349FA6FE39D53A590BA269779E9F /* CCHMapTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapTree.m; path = CCHMapClusterController/CCHMapTree.m; sourceTree = "<group>"; };
+		1ADDCE5D53DBC0BAA578F1A18895BA37 /* CCHMapTreeUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapTreeUtils.h; path = CCHMapClusterController/CCHMapTreeUtils.h; sourceTree = "<group>"; };
+		2358F16486F411119537C5E116932219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		24561610F4E4C7E9EB9A4511C931C648 /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapViewDelegateProxy.m; path = CCHMapClusterController/CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
+		265D97B742D6E80304AEC33B3D603A8F /* CCHCenterOfMassMapClusterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHCenterOfMassMapClusterer.m; path = CCHMapClusterController/CCHCenterOfMassMapClusterer.m; sourceTree = "<group>"; };
+		268E13DFF0F26A01892FBDCEE77345F5 /* CCHMapClusterControllerDebugPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerDebugPolygon.m; path = CCHMapClusterController/CCHMapClusterControllerDebugPolygon.m; sourceTree = "<group>"; };
+		317235D70EDBE2E1B1A7C964A1AD520A /* Pods-FlickrTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlickrTask-dummy.m"; sourceTree = "<group>"; };
+		3B247F42D4F188F762BFABC774D4EF5E /* Pods-FlickrTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickrTask-frameworks.sh"; sourceTree = "<group>"; };
+		3FEC7F070336B0469D8EB99BB3E10EFE /* CCHNearCenterMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHNearCenterMapClusterer.h; path = CCHMapClusterController/CCHNearCenterMapClusterer.h; sourceTree = "<group>"; };
+		40870FA3DF5DD6AD4BF8D21A9D6E9804 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		4245F1E00CDB96D280CC6BC17C484735 /* CCHNearCenterMapClusterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHNearCenterMapClusterer.m; path = CCHMapClusterController/CCHNearCenterMapClusterer.m; sourceTree = "<group>"; };
+		4F292EAC99C65EAD43E3EC9735B1C522 /* CCHMapTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapTree.h; path = CCHMapClusterController/CCHMapTree.h; sourceTree = "<group>"; };
+		515CEE5DD3EF39B8281FBDD1423A953C /* CCHMapClusterControllerUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerUtils.m; path = CCHMapClusterController/CCHMapClusterControllerUtils.m; sourceTree = "<group>"; };
+		52C278601DDE8D404AA98040A6872625 /* Pods-FlickrTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlickrTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58141456E97ABCE213BA607E78295DE2 /* CCHMapClusterController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCHMapClusterController.xcconfig; sourceTree = "<group>"; };
+		589CF59E1926D1CF6EF5865F6FCBC351 /* CCHMapTreeUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapTreeUtils.m; path = CCHMapClusterController/CCHMapTreeUtils.m; sourceTree = "<group>"; };
+		5EB9CAB82C2568052B15DA639785F13B /* CCHMapClusterControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDelegate.h; path = CCHMapClusterController/CCHMapClusterControllerDelegate.h; sourceTree = "<group>"; };
+		688F28BDE0A51A81DB741A8E192D0743 /* CCHMapClusterControllerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerUtils.h; path = CCHMapClusterController/CCHMapClusterControllerUtils.h; sourceTree = "<group>"; };
+		6973978FAE573A7A88563F3AB951E396 /* CCHMapClusterControllerDebugPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDebugPolygon.h; path = CCHMapClusterController/CCHMapClusterControllerDebugPolygon.h; sourceTree = "<group>"; };
+		6EA389E8B13A29ED7EEE5DACAAE6B4DA /* CCHMapClusterOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterOperation.m; path = CCHMapClusterController/CCHMapClusterOperation.m; sourceTree = "<group>"; };
+		7BF14384C60C8A83B03A5757F5EF66FE /* CCHMapClusterController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCHMapClusterController-dummy.m"; sourceTree = "<group>"; };
+		85809AEAE9DE6D026514ED009354E497 /* libCCHMapClusterController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCCHMapClusterController.a; path = libCCHMapClusterController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A52709544DD59153D5233D1A6F54B3 /* libPods-FlickrTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FlickrTask.a"; path = "libPods-FlickrTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F7F2E5EB05E6B272ABDF5A7354D6E2 /* Pods-FlickrTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickrTask.release.xcconfig"; sourceTree = "<group>"; };
+		B1494287433DE58DAEE7F19EB6AD38F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		B14D327DFF536ECEAC0166BC148A2A03 /* Pods-FlickrTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlickrTask-resources.sh"; sourceTree = "<group>"; };
+		B659EFF71642CEC279F6464B30E1DEA2 /* Pods-FlickrTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlickrTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD4EF828891F44FBD3A05A9C39D0EAEE /* CCHCenterOfMassMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHCenterOfMassMapClusterer.h; path = CCHMapClusterController/CCHCenterOfMassMapClusterer.h; sourceTree = "<group>"; };
+		BFE4C23D6B9BF4E98419D451E250DB8C /* CCHMapClusterOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterOperation.h; path = CCHMapClusterController/CCHMapClusterOperation.h; sourceTree = "<group>"; };
+		C2E3786A19A564D3AA95AE3781E56D47 /* CCHMapClusterController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHMapClusterController-prefix.pch"; sourceTree = "<group>"; };
+		CFAA2806C17B0EEBD5C5B3F2CCE1C0DA /* CCHMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterer.h; path = CCHMapClusterController/CCHMapClusterer.h; sourceTree = "<group>"; };
+		E12EBE3C050CDC5568870BE0FB48FD0F /* CCHMapViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapViewDelegateProxy.h; path = CCHMapClusterController/CCHMapViewDelegateProxy.h; sourceTree = "<group>"; };
+		E2FFCC07266EF9E0BD7E1BA296FA15A9 /* Pods-FlickrTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickrTask.debug.xcconfig"; sourceTree = "<group>"; };
+		E305C67BC94594BAD2EB4D7742D4EE20 /* CCHMapClusterAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterAnnotation.h; path = CCHMapClusterController/CCHMapClusterAnnotation.h; sourceTree = "<group>"; };
+		EEDC37F082CC7751FF6A5D1B9FA8EB1C /* CCHFadeInOutMapAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHFadeInOutMapAnimator.h; path = CCHMapClusterController/CCHFadeInOutMapAnimator.h; sourceTree = "<group>"; };
+		EFA095D7E1826954B2AE9F1EECE2C6D8 /* CCHMapClusterController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterController.m; path = CCHMapClusterController/CCHMapClusterController.m; sourceTree = "<group>"; };
+		F1A8A315BD5E14E7F6E5CA7413AF41C4 /* CCHMapClusterAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterAnnotation.m; path = CCHMapClusterController/CCHMapClusterAnnotation.m; sourceTree = "<group>"; };
+		FFCA5A7409FF0F1452F66A74E2192B76 /* CCHMapAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapAnimator.h; path = CCHMapClusterController/CCHMapAnimator.h; sourceTree = "<group>"; };
+		FFFCABEB83ADD6F865CA419C55CA121D /* CCHFadeInOutMapAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHFadeInOutMapAnimator.m; path = CCHMapClusterController/CCHFadeInOutMapAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585C058D435B7CCDD13DF07E620D8755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB246B27878FE683DD2D60C441727C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBDF2136F5318E245330586EC398A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFFBEF39527D87A98B8A4EF3A642041 /* CoreLocation.framework in Frameworks */,
+				F54D798B2BDDA133955D0E2F88E20E1E /* Foundation.framework in Frameworks */,
+				A770AB9EC96B4CB037C109B00819AD16 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				922CBED1C949B92A67803AB63048DF58 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20E076289537A6EAEC7A77B1E3ABD8E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85809AEAE9DE6D026514ED009354E497 /* libCCHMapClusterController.a */,
+				96A52709544DD59153D5233D1A6F54B3 /* libPods-FlickrTask.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3464072B9CB4ACF395B7AC84E971C0B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58141456E97ABCE213BA607E78295DE2 /* CCHMapClusterController.xcconfig */,
+				7BF14384C60C8A83B03A5757F5EF66FE /* CCHMapClusterController-dummy.m */,
+				C2E3786A19A564D3AA95AE3781E56D47 /* CCHMapClusterController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCHMapClusterController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				DB68C81BE75B08EA5A758AE0747B98C7 /* Pods */,
+				20E076289537A6EAEC7A77B1E3ABD8E8 /* Products */,
+				F51D79FD25F31FDB4D20BE9A12EF5C28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		922CBED1C949B92A67803AB63048DF58 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1494287433DE58DAEE7F19EB6AD38F6 /* CoreLocation.framework */,
+				2358F16486F411119537C5E116932219 /* Foundation.framework */,
+				40870FA3DF5DD6AD4BF8D21A9D6E9804 /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B50D0E4CC58A35391F219EB30F10BF3D /* CCHMapClusterController */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EF828891F44FBD3A05A9C39D0EAEE /* CCHCenterOfMassMapClusterer.h */,
+				265D97B742D6E80304AEC33B3D603A8F /* CCHCenterOfMassMapClusterer.m */,
+				EEDC37F082CC7751FF6A5D1B9FA8EB1C /* CCHFadeInOutMapAnimator.h */,
+				FFFCABEB83ADD6F865CA419C55CA121D /* CCHFadeInOutMapAnimator.m */,
+				FFCA5A7409FF0F1452F66A74E2192B76 /* CCHMapAnimator.h */,
+				E305C67BC94594BAD2EB4D7742D4EE20 /* CCHMapClusterAnnotation.h */,
+				F1A8A315BD5E14E7F6E5CA7413AF41C4 /* CCHMapClusterAnnotation.m */,
+				028EA6EA566863ACBBBCB8A7C6BD997B /* CCHMapClusterController.h */,
+				EFA095D7E1826954B2AE9F1EECE2C6D8 /* CCHMapClusterController.m */,
+				6973978FAE573A7A88563F3AB951E396 /* CCHMapClusterControllerDebugPolygon.h */,
+				268E13DFF0F26A01892FBDCEE77345F5 /* CCHMapClusterControllerDebugPolygon.m */,
+				5EB9CAB82C2568052B15DA639785F13B /* CCHMapClusterControllerDelegate.h */,
+				688F28BDE0A51A81DB741A8E192D0743 /* CCHMapClusterControllerUtils.h */,
+				515CEE5DD3EF39B8281FBDD1423A953C /* CCHMapClusterControllerUtils.m */,
+				CFAA2806C17B0EEBD5C5B3F2CCE1C0DA /* CCHMapClusterer.h */,
+				BFE4C23D6B9BF4E98419D451E250DB8C /* CCHMapClusterOperation.h */,
+				6EA389E8B13A29ED7EEE5DACAAE6B4DA /* CCHMapClusterOperation.m */,
+				4F292EAC99C65EAD43E3EC9735B1C522 /* CCHMapTree.h */,
+				09C6349FA6FE39D53A590BA269779E9F /* CCHMapTree.m */,
+				1ADDCE5D53DBC0BAA578F1A18895BA37 /* CCHMapTreeUtils.h */,
+				589CF59E1926D1CF6EF5865F6FCBC351 /* CCHMapTreeUtils.m */,
+				E12EBE3C050CDC5568870BE0FB48FD0F /* CCHMapViewDelegateProxy.h */,
+				24561610F4E4C7E9EB9A4511C931C648 /* CCHMapViewDelegateProxy.m */,
+				3FEC7F070336B0469D8EB99BB3E10EFE /* CCHNearCenterMapClusterer.h */,
+				4245F1E00CDB96D280CC6BC17C484735 /* CCHNearCenterMapClusterer.m */,
+				3464072B9CB4ACF395B7AC84E971C0B4 /* Support Files */,
+			);
+			name = CCHMapClusterController;
+			path = CCHMapClusterController;
+			sourceTree = "<group>";
+		};
+		DB68C81BE75B08EA5A758AE0747B98C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B50D0E4CC58A35391F219EB30F10BF3D /* CCHMapClusterController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F51D79FD25F31FDB4D20BE9A12EF5C28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F762CC5F2667826416CBA96CFAF099C2 /* Pods-FlickrTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F762CC5F2667826416CBA96CFAF099C2 /* Pods-FlickrTask */ = {
+			isa = PBXGroup;
+			children = (
+				52C278601DDE8D404AA98040A6872625 /* Pods-FlickrTask-acknowledgements.markdown */,
+				B659EFF71642CEC279F6464B30E1DEA2 /* Pods-FlickrTask-acknowledgements.plist */,
+				317235D70EDBE2E1B1A7C964A1AD520A /* Pods-FlickrTask-dummy.m */,
+				3B247F42D4F188F762BFABC774D4EF5E /* Pods-FlickrTask-frameworks.sh */,
+				B14D327DFF536ECEAC0166BC148A2A03 /* Pods-FlickrTask-resources.sh */,
+				E2FFCC07266EF9E0BD7E1BA296FA15A9 /* Pods-FlickrTask.debug.xcconfig */,
+				A4F7F2E5EB05E6B272ABDF5A7354D6E2 /* Pods-FlickrTask.release.xcconfig */,
+			);
+			name = "Pods-FlickrTask";
+			path = "Target Support Files/Pods-FlickrTask";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1BBB319B3A60E8F26441D0433FFC39A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7CA533670863EBEE0E1A1C13E5CB5D /* CCHCenterOfMassMapClusterer.h in Headers */,
+				BB2B6B5F4F81A9A653237857B4249F4E /* CCHFadeInOutMapAnimator.h in Headers */,
+				3A6AAD39026480D60D8E8F319087986E /* CCHMapAnimator.h in Headers */,
+				9F61D119DEC1E5CABB07E3DB33135FD7 /* CCHMapClusterAnnotation.h in Headers */,
+				CB7CF9DF2BBA756102580162254ABD18 /* CCHMapClusterController.h in Headers */,
+				4DAD13E0A1C249697FE9D378A086CC6B /* CCHMapClusterControllerDebugPolygon.h in Headers */,
+				E2511F0EAC2917648467754B7B8FF488 /* CCHMapClusterControllerDelegate.h in Headers */,
+				D3F1DCA17A9C27F8960698EF75B9CD9F /* CCHMapClusterControllerUtils.h in Headers */,
+				23A10301F8CE3CF9D057F0E2BF4376FE /* CCHMapClusterer.h in Headers */,
+				E93D6FCC45D7E173A5AE54F80ABDECC7 /* CCHMapClusterOperation.h in Headers */,
+				28A86CBE6B26746DCE464FD498B93880 /* CCHMapTree.h in Headers */,
+				A87766FAD5C707664A15050CE6994840 /* CCHMapTreeUtils.h in Headers */,
+				B1B7868E70947735F9A5CFDD135ABA7E /* CCHMapViewDelegateProxy.h in Headers */,
+				CD8F7E96AEE4FA632A5594DD466BCC39 /* CCHNearCenterMapClusterer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AAA0B671DB7D179B41D8B07FB263296C /* Pods-FlickrTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00EF86134E2AC7234AAE627DF337544 /* Build configuration list for PBXNativeTarget "Pods-FlickrTask" */;
+			buildPhases = (
+				9548D4F30F85804AECD8364C8E19B4B9 /* Sources */,
+				585C058D435B7CCDD13DF07E620D8755 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EDEA0E4A9BA19C7A4F93B7C28C0D7F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlickrTask";
+			productName = "Pods-FlickrTask";
+			productReference = 96A52709544DD59153D5233D1A6F54B3 /* libPods-FlickrTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D252272B13D2E7AD51A8F92A418C5EB3 /* CCHMapClusterController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B929AB50989CD4C8904EF53136DCF07B /* Build configuration list for PBXNativeTarget "CCHMapClusterController" */;
+			buildPhases = (
+				87FA83DB8CD0AB60121398C63D804B1D /* Sources */,
+				5EBDF2136F5318E245330586EC398A33 /* Frameworks */,
+				A1BBB319B3A60E8F26441D0433FFC39A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCHMapClusterController;
+			productName = CCHMapClusterController;
+			productReference = 85809AEAE9DE6D026514ED009354E497 /* libCCHMapClusterController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 20E076289537A6EAEC7A77B1E3ABD8E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D252272B13D2E7AD51A8F92A418C5EB3 /* CCHMapClusterController */,
+				AAA0B671DB7D179B41D8B07FB263296C /* Pods-FlickrTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FA83DB8CD0AB60121398C63D804B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014C39697A9B8A6E4E4333C39E24292B /* CCHCenterOfMassMapClusterer.m in Sources */,
+				9DA73634923DA9CB7CCFC40F81D9DFDB /* CCHFadeInOutMapAnimator.m in Sources */,
+				53552F01087F54AFF8EA195101A926E7 /* CCHMapClusterAnnotation.m in Sources */,
+				58F417E9D8FA191243077AEC7CC5F583 /* CCHMapClusterController-dummy.m in Sources */,
+				03D51ACBA285510A55D84C762AD3F9C0 /* CCHMapClusterController.m in Sources */,
+				2447B9539F68734078BA344CADFF8EC7 /* CCHMapClusterControllerDebugPolygon.m in Sources */,
+				43849B791AF8BBC296C364A19A2E9DF1 /* CCHMapClusterControllerUtils.m in Sources */,
+				92E1810B76C63DFDAE93B81708E6DA61 /* CCHMapClusterOperation.m in Sources */,
+				37741FB9348B5489D440CD195E9C8823 /* CCHMapTree.m in Sources */,
+				D14618AB6214C8C5F2F8041035431B9C /* CCHMapTreeUtils.m in Sources */,
+				90E127B20E651F224DE641C9D16489E7 /* CCHMapViewDelegateProxy.m in Sources */,
+				5D70EC70E5A9C0C52AACEC420D24B27B /* CCHNearCenterMapClusterer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9548D4F30F85804AECD8364C8E19B4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63F295AB20D2BCC0C6C4E76D3150440 /* Pods-FlickrTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EDEA0E4A9BA19C7A4F93B7C28C0D7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCHMapClusterController;
+			target = D252272B13D2E7AD51A8F92A418C5EB3 /* CCHMapClusterController */;
+			targetProxy = C502738F4384908A1D8F5EB3FC92DB6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F68314D2AFC752B4D59C6949E2F73F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FFCC07266EF9E0BD7E1BA296FA15A9 /* Pods-FlickrTask.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		77278FF6AF2D7E9BA16443BD5F5F6189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58141456E97ABCE213BA607E78295DE2 /* CCHMapClusterController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCHMapClusterController/CCHMapClusterController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEA6DD04FB791A4BCDD90FF7CB3812B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58141456E97ABCE213BA607E78295DE2 /* CCHMapClusterController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCHMapClusterController/CCHMapClusterController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2F6D059DF667CFF88F6577CF051F2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F7F2E5EB05E6B272ABDF5A7354D6E2 /* Pods-FlickrTask.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00EF86134E2AC7234AAE627DF337544 /* Build configuration list for PBXNativeTarget "Pods-FlickrTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F68314D2AFC752B4D59C6949E2F73F1 /* Debug */,
+				F2F6D059DF667CFF88F6577CF051F2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B929AB50989CD4C8904EF53136DCF07B /* Build configuration list for PBXNativeTarget "CCHMapClusterController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEA6DD04FB791A4BCDD90FF7CB3812B /* Debug */,
+				77278FF6AF2D7E9BA16443BD5F5F6189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

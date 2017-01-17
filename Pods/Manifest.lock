@@ -1,0 +1,12 @@
+PODS:
+  - CCHMapClusterController (1.7.0)
+
+DEPENDENCIES:
+  - CCHMapClusterController
+
+SPEC CHECKSUMS:
+  CCHMapClusterController: d8cd12cd5682ec6cd76d911ac7198f981b6cc1b8
+
+PODFILE CHECKSUM: 6f9a5fa3d25bb9df5e1184a2e2db8d14e2cc1330
+
+COCOAPODS: 1.1.1

@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  FlickrTask
 //
-//  Created by CTS-MACMINI on 14/01/17.
-//  Copyright © 2017 MD. All rights reserved.
+//  Created by atya Venkata Krishna Achanta on 14/01/17.
+//  Copyright © 2017 Satya Venkata Krishna Achanta. All rights reserved.
 //
 
 #import "AppDelegate.h"
